@@ -1,7 +1,7 @@
 import Link from "./../model/Link.js"
 
 const postLink= async(req,res)=>{
-    const{  title, target,slug } = req.body;
+    const{   target, slug, title} = req.body;
 
 
     const link = new Link({
